@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Charles Talbot</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', monospace;
+        }
+        
+        body {
+            background-color: #1A1A1A;
+            color: #F4E7D1;
+            line-height: 1.6;
+            padding: 20px;
+            font-size: 16px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #C85656;
+            color: #1A1A1A;
+            border-radius: 10px;
+            box-shadow: 4px 4px 0px #8C3A3A;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #2D2D2D;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 0px #8C3A3A;
+        }
+        
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #FFCC66;
+        }
+        
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 5px solid #C85656;
+            background: #3C3C3C;
+            border-radius: 5px;
+            transition: transform 0.3s;
+            box-shadow: 2px 2px 0px #8C3A3A;
+        }
+        
+        section:hover {
+            transform: scale(1.02);
+        }
+        
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        
+        .contact a {
+            color: #FF9966;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Charles Talbot</h1>
+        <p>Artist | Potter | Engineer</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Artist Bio</h2>
+            <p>Charles Talbot is a visual artist, ceramicist, and engineer. Growing up in Essex, Massachusetts, by the ocean, he was influenced by the rhythms of nature and craft, shaped by a family of gardeners and sailors. His work blends traditional ceramics, material experimentation, and digital processes.</p>
+        </section>
+        
+        <section>
+            <h2>Artist Statement</h2>
+            <p>By conflicting real or mythic points of origin, traditions of American identity, and personal lineage, my work gathers narrative into an increasingly singular entropic condition. Through abstraction, I examine my place in these histories and distill them into sensations about history.</p>
+        </section>
+        
+        <section>
+            <h2>Exhibitions</h2>
+            <ul>
+                <li>OPaf 5 (2021) - Los Angeles, CA</li>
+                <li>Brittany: Friends in Gold Country (2021) - Vallejo, CA</li>
+                <li>Sunday Night Reels (2020) - Vallejo, CA</li>
+                <li>Collective Identity (2019) - Brooklyn, NY</li>
+                <li>Renegade Craft (2018) - Boston, MA</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Engineering & Digital Art</h2>
+            <p>Charles is also a Principal Software Engineer, specializing in UI/UX, front-end development, and creative coding. His dual expertise allows him to explore emerging areas of digital fabrication, computational design, and interactive installations.</p>
+        </section>
+        
+        <section>
+            <h2>Contact</h2>
+            <p class="contact">
+                📍 Cambridge, MA<br>
+                📩 <a href="mailto:charlietalbot@gmail.com">charlietalbot@gmail.com</a><br>
+                🔗 <a href="https://linkedin.com/in/charlestalbotiii" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
